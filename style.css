@@ -1,0 +1,91 @@
+/* Eric Meyer's Reset Reloaded *//* http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}body {line-height: 1;}blockquote, q {quotes: none;}/* remember to define focus styles! */:focus {outline: 0;}/* remember to highlight inserts somehow! */ins {text-decoration: none;}del {text-decoration: line-through;}/* tables still need 'cellspacing="0"' in the markup */table {border-collapse: collapse;border-spacing: 0;}
+
+body {
+    height: 100%;
+    background-image: -moz-linear-gradient(top, #dddddd, #ffffff); /* FF3.6 */
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #dddddd),color-stop(1, #ffffff)); /* Saf4+, Chrome */
+            filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#dddddd', endColorstr='#ffffff'); /* IE6,IE7 */
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#dddddd', endColorstr='#ffffff')"; /* IE8 */
+        height: 100%;
+        font-family: Helvetica,Arial,sans-serif;
+        background-repeat: no-repeat;
+        background-color: #fff;
+}
+
+div#container {
+    width: 725px;
+    margin: 0 auto;
+}
+
+@font-face {
+	font-family: 'FontinSansBoldItalic';
+	src: url('fontin_sans_bi_45b.eot');
+	src: local('Fontin Sans'), local('FontinSans-BoldItalic'), url('fontin_sans_bi_45b.woff') format('woff'), url('fontin_sans_bi_45b.ttf') format('truetype');
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+a:hover, a:active {
+    color: #000;
+}
+
+h1,h2,h3 {
+    line-height:normal;
+    font-weight: normal;
+    font-family: 'FontinSansBoldItalic', sans-serif;
+}
+
+div#title {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 150px;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 32px;
+    position: relative;
+    top: -30px;
+    left: 50px;
+    width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: #666;
+}
+
+h3 {
+    font-size: 25px;
+    margin: 15px 0;
+    margin-top: 35px;
+}
+
+p {
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+input[type=text] {
+    font-size: 20px;
+    padding: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 2px solid #333;
+    width: 300px;
+}
+
+pre {
+    margin-left: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-image: -moz-linear-gradient(top, #dddddd, #ffffff); /* FF3.6 */
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #dddddd),color-stop(1, #ffffff)); /* Saf4+, Chrome */
+            filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#dddddd', endColorstr='#ffffff'); /* IE6,IE7 */
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#dddddd', endColorstr='#ffffff')"; /* IE8 */
+        
+    margin: 10px 0;
+}

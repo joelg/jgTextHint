@@ -1,3 +1,47 @@
-<h1>jgTextHint: a jQuery plugin</h1>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <title>jgTextHint - a jQuery plugin by Joel Gascoigne</title>
+            <link href="style.css" rel="stylesheet" type="text/css" />
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+            <script src="jquery.jgTextHint.js" type="text/javascript"></script>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('input[type=text]').jgTextHint();
+                });
+            </script>
+            <meta name="description" content="jgTextHint is a jQuery plugin to enable you to show neat text hints on your text inputs, based on the initial value of the text box." />
+            <meta name="keywords" content="jquery, jgtexthint, plugin" />
+    </head>
+    <body>
+        <div id="container">
+        <div id="title">
+            <h1>jgTextHint</h1>
+            <h2>a jQuery plugin plugin by <a target="_blank" href="http://myonepage.com/joel">Joel Gascoigne</a></h2>
+        </div>
+        <h3>What is it?</h3>
+        <p>jgTextHint is a jQuery plugin to enable you to show neat text hints on your text inputs, based on the initial value of the text box.</p>
 
-<p>Try it out, it's awesome! (and very simple)</p>
+        <h3>Demo</h3>
+        <p><input type="text" value="Click and the hint will disappear" /></p>
+
+        <h3>Usage</h3>
+        <p>First, load jQuery and the plugin:</p>
+        <pre><code>&lt;script src="jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="jquery.jgTextHint.js" type="text/javascript"&gt;&lt;/script&gt;</code></pre>
+        <p>Now, choose a set of elements to apply jgTextHint to:</p>
+        <pre><code>$(document).ready(function(){
+    $('input[type=text]').jgTextHint();
+});</code></pre>
+        <p>The above applies jgTextHint to all text input boxes on your page.</p>
+
+        <h3>Download it</h3>
+        <p>Grab the code at GitHub: <a href="http://github.com/joelg/jgTextHint">http://github.com/joelg/jgTextHint</a></p>
+
+        <h3>Licence</h3>
+        <p>Dual licensed under the MIT and GPL licenses.</p>
+
+        </div>
+    </body>
+</html>
